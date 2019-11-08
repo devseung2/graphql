@@ -1,10 +1,6 @@
 # graphql
 
-<br>
-
 ## 1. graphql 설치방법 및 node js 기본 설정
-
-<br>
 
 ### 먼저 Node js 기본 설정에 대해 알아보자.
 
