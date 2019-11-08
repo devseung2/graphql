@@ -1,11 +1,11 @@
 # graphql
 
-1. graphql 설치방법 및 node js 기본 설정
+## 1. graphql 설치방법 및 node js 기본 설정
 
 
-먼저 Node js 기본 설정에 대해 알아보자.
+### 먼저 Node js 기본 설정에 대해 알아보자.
 
-Nodemon
+#### Nodemon
 서버에서 코드를 수정할 때마다, 서버를 재시작해야 한다.
 하지만 nodemon 을 사용하면 자동으로 재시작해준다.
 
