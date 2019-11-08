@@ -7,15 +7,23 @@
 <br>
 ### 먼저 Node js 기본 설정에 대해 알아보자.
 <br>
+
 #### Nodemon
+
 <br>
 > 서버에서 코드를 수정할 때마다, 서버를 재시작해야 한다.
 > 하지만 nodemon 을 사용하면 자동으로 재시작해준다.
+
 <br>
+
 ### npm install -g nodemon
+
 <br>
+
 ### 설치 후 package.json 파일을 수정한다.
+
 <br>
+
 > "scripts": {
     "start": "nodemon index.js"
   },
