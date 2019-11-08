@@ -11,7 +11,8 @@
 > 하지만 nodemon 을 사용하면 자동으로 재시작해준다.
 
 
-***npm install -g nodemon
+* * * 
+npm install -g nodemon
 
 설치 후 package.json 파일을 수정한다.
 
