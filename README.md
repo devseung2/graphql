@@ -34,7 +34,8 @@
 
 ### 설치 후 package.json 파일을 수정한다.
 
-> "scripts": {
+```javascript```
+ "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
 
@@ -102,7 +103,7 @@ query {
 
 ## 모든 사람들을 검색하는 쿼리(name, age만 검색)
 
-> # Write your query or mutation here
+> Write your query or mutation here
 query {
   people{
     name
