@@ -64,12 +64,11 @@
 ### 서버를 구동하면 Graphql Runing! 을 확인할 수 있다.
 
 
-
 ## 2. Graphql 기초편
 
-### graphql의 기초적인 부분을 설명하고자 한다.
-### 사람들의 정보를 받을 수 있도록 graphql을 작성해보자.
-### 우선 데이터베이스나 API를 통해 데이터를 받지않고 직접 만들어서 진행했다.
+#### graphql의 기초적인 부분을 설명하고자 한다.
+#### 사람들의 정보를 받을 수 있도록 graphql을 작성해보자.
+#### 우선 데이터베이스나 API를 통해 데이터를 받지않고 직접 만들어서 진행했다.
 
 > index.js
 > resolvers.js
@@ -80,10 +79,9 @@
 #### 실제로 graphql을 작성해서 결과를 확인할 수 있다.
 
 
-## id 2를 가진 사람을 찾는 쿼리(name, age만 검색)
+### id 2를 가진 사람을 찾는 쿼리(name, age만 검색)
 
-> Write your query or mutation here
-query {
+> query {
   person(id:2) {
     name
     age
@@ -91,7 +89,7 @@ query {
 }
 
 
-## 실행 결과
+### 실행 결과
 
 > {
   "data": {
@@ -103,10 +101,9 @@ query {
 }
 
 
-## 모든 사람들을 검색하는 쿼리(name, age만 검색)
+### 모든 사람들을 검색하는 쿼리(name, age만 검색)
 
-```Javascript```
-query {
+> query {
   people{
     name
     age
@@ -114,7 +111,7 @@ query {
 }
 
 
-## 실행 결과
+### 실행 결과
 
 > {
   "data": {
