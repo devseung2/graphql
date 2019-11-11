@@ -173,5 +173,5 @@
 }
 
 
-## 2. Graphql 기초편(2) : Mutation
+## 3. Graphql 기초편(2) : Mutation
 #### https://blog.naver.com/dev_seung2/221704576025 
